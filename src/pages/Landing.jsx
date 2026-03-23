@@ -97,7 +97,7 @@ export default function Landing() {
       {/* ── HERO ── */}
       <section className="hero-section">
         <div className="hero-text">
-          <div className="hero-badge">🚗 Premium Car Rentals · Bangalore</div>
+          <div className="hero-badge">🚗 Premium Car Rentals · Tumbagada</div>
           <h1>Drive Your <span>Journey</span>,<br />Your Way.</h1>
           <p>Karjee's Travels offers comfortable, reliable car rentals for city
             commutes and long road trips. Transparent pricing, no hidden fees.</p>
@@ -196,9 +196,9 @@ export default function Landing() {
         <h2 className="sec-title">What Our Customers Say</h2>
         <div className="testi-grid">
           {[
-            { name: 'Rahul Mehta',  city: 'Bangalore', text: 'Booked an SUV for a weekend trip to Coorg. Smooth process, clean car, super responsive team!' },
-            { name: 'Priya Sharma', city: 'Mysore',    text: 'Made our family vacation so easy. Car delivered to our doorstep and picked up after. Hassle-free!' },
-            { name: 'Arun Nair',    city: 'Chennai',   text: 'Best car rental in Bangalore. Transparent pricing and 24/7 support that actually picks up!' },
+            { name: 'Asish Kumar Sahu',  city: 'Tumba', text: 'Booked an SUV for a weekend trip to Coorg. Smooth process, clean car, super responsive team!' },
+            { name: 'Sagar Pattnaik', city: 'Raikia',    text: 'Made our family vacation so easy. Car delivered to our doorstep and picked up after. Hassle-free!' },
+            { name: 'Sankarsan Roula',    city: 'Tumba',   text: 'Best car rental in Bangalore. Transparent pricing and 24/7 support that actually picks up!' },
           ].map(t => (
             <div key={t.name} className="testi-card">
               <div className="testi-stars">★★★★★</div>
@@ -222,7 +222,7 @@ export default function Landing() {
             <div className="sec-label">Get In Touch</div>
             <h2 className="sec-title">Ready to Hit the Road?</h2>
             <p className="sec-sub">Fill in the form and our team will get back to you within 2 hours.</p>
-            {[['📞', '+91 98765 43210'], ['📧', 'hello@karjeestravel.in'], ['📍', 'Bangalore, Karnataka']].map(([icon, val]) => (
+            {[['📞', '+91 88478 76574'], ['📧', 'care@karjeestravel.com'], ['📍', 'Saradhapur, Po- Tumba Gada 761005, Ps- Jarada Gada, Ganjam (Odisha)']].map(([icon, val]) => (
               <div key={val} className="contact-detail"><span>{icon}</span><span>{val}</span></div>
             ))}
           </div>
@@ -244,7 +244,7 @@ export default function Landing() {
 
       {/* ── FOOTER ── */}
       <footer className="footer">
-        © {new Date().getFullYear()} <span>Karjee's Travels</span>. All rights reserved. Made with ❤️ in Bangalore.
+        © {new Date().getFullYear()} <span>Karjee's Travels</span>. All rights reserved. Made with ❤️
       </footer>
 
       {/* ── SCROLL TO TOP ── */}
